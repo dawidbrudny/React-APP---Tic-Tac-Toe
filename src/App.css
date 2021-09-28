@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.current-player {
+  display: block;
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  user-select: none;
+}
+
+.play-again {
+  display: block;
+  position: absolute;
+  top: 500px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: white;
+  border: 2px black solid;
+  padding: 10px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: .2s linear;
+  user-select: none;
+}
+
+.play-again:hover {
+  background-color: black;
+  color: white;
+}
+
+section.choose-mode {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  top: 500px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 500px;
+}
+
+button.choose-mode {
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  border: 2px black solid;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: .2s linear;
+  user-select: none;
+}
+
+button.choose-mode:hover {
+  background-color: black;
+  color: white;
+}
+
+.table {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin: 50px auto;
+  width: 300px;
+}
+
+.table .cell {
+  width: 100px;
+  height: 100px;
+  border: 2px black solid;
+  color: red;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 100px;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  user-select: none;
+}
+
+.cell:nth-child(1) {
+  border-top: none;
+  border-left: none;
+}
+
+.cell:nth-child(2) {
+  border-top: none;
+}
+
+.cell:nth-child(3) {
+  border-top: none;
+  border-right: none;
+}
+
+.cell:nth-child(4) {
+  border-left: none;
+}
+
+.cell:nth-child(6) {
+  border-right: none;
+}
+
+.cell:nth-child(7) {
+  border-bottom: none;
+  border-left: none;
+}
+
+.cell:nth-child(8) {
+  border-bottom: none;
+}
+
+.cell:nth-child(9) {
+  border-bottom: none;
+  border-right: none;
+}
