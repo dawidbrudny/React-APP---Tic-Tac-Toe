@@ -1,5 +1,5 @@
 {
-  "homepage": "https://dawidbrudny.github.io/React-APP---Tic-Tac-Toe/public/",
+  "homepage": "https://dawidbrudny.github.io/React-APP---Tic-Tac-Toe/",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -37,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.0"
   }
 }
