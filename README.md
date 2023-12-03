@@ -1,6 +1,8 @@
 # Tic Tac Toe (React App)
 > The application was built based on the Create React App technology in order to consolidate knowledge from the course.
 
+Live demo [_here_](https://dawidbrudny.github.io/React-APP---Tic-Tac-Toe/)
+
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
